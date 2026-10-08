@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790852250.3250985, "query": "How do physics bodies, shapes, and fixtures work in Love2D?", "status": "ok", "duration_ms": 0.49}
+{"stage": "retrieve", "ts": 1790852250.3262796, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 78.66}
+{"stage": "llm.generate", "ts": 1790852250.4159706, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2402.33}
+{"stage": "validate.citations", "ts": 1790852252.818588, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.22}

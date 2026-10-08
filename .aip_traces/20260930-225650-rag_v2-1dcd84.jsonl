@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790789210.1699762, "query": "How do I set the window title and resolution in Love2D?", "status": "ok", "duration_ms": 0.49}
+{"stage": "retrieve", "ts": 1790789210.174197, "mode": "gold", "n_chunks": 1, "status": "ok", "duration_ms": 0.0}
+{"stage": "llm.generate", "ts": 1790789210.178847, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1572.46}
+{"stage": "validate.citations", "ts": 1790789211.7523553, "n_sources": 1, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.93}

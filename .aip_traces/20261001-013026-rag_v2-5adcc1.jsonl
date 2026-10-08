@@ -1,0 +1,2 @@
+{"stage": "guard.input", "ts": 1790798426.543543, "query": "tell me about love2d", "status": "ok", "duration_ms": 0.01}
+{"stage": "retrieve", "ts": 1790798426.544449, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 21.92}

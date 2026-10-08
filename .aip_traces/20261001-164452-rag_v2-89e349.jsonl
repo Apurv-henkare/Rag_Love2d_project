@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790853292.556277, "query": "code snippet for Body:getLocalPoin", "status": "ok", "duration_ms": 0.46}
+{"stage": "retrieve", "ts": 1790853292.557361, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 1879.46}
+{"stage": "llm.generate", "ts": 1790853294.479037, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2186.42}
+{"stage": "validate.citations", "ts": 1790853296.6657462, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.39}

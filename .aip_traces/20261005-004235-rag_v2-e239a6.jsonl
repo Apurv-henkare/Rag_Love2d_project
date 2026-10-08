@@ -1,0 +1,2 @@
+{"stage": "guard.input", "ts": 1791141155.7091033, "query": "code snippet for pong game", "status": "ok", "duration_ms": 0.68}
+{"stage": "retrieve", "ts": 1791141155.7106256, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 379.27}

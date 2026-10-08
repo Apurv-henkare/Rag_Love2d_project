@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790776449.560274, "query": "code snippet for snake game", "status": "ok", "duration_ms": 0.03}
+{"stage": "retrieve", "ts": 1790776449.5614223, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2680.74}
+{"stage": "llm.generate", "ts": 1790776452.2587214, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1623.11}
+{"stage": "validate.citations", "ts": 1790776453.8834858, "n_sources": 20, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.03}

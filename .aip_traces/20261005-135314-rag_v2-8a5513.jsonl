@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791188594.1640453, "query": "code snippet for world:physics", "status": "ok", "duration_ms": 0.6}
+{"stage": "retrieve", "ts": 1791188594.1660593, "mode": "hybrid", "n_chunks": 18, "status": "ok", "duration_ms": 2996.84}
+{"stage": "llm.generate", "ts": 1791188597.2123425, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3825.2}
+{"stage": "validate.citations", "ts": 1791188601.0387464, "n_sources": 18, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 2.56}

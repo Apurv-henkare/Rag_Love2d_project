@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790838640.7251241, "query": "what is blender", "status": "ok", "duration_ms": 0.02}
+{"stage": "retrieve", "ts": 1790838640.7265348, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 31.91}
+{"stage": "llm.generate", "ts": 1790838640.7650137, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1693.17}
+{"stage": "validate.citations", "ts": 1790838642.4591877, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.03}

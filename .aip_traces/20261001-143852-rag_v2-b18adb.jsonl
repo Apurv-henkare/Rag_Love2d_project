@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790845732.5936978, "query": "can you talk about .drawCyberPortal(x, y, radius) ", "status": "ok", "duration_ms": 0.55}
+{"stage": "retrieve", "ts": 1790845732.9435315, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 43.68}
+{"stage": "llm.generate", "ts": 1790845733.0195022, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1817.25}
+{"stage": "validate.citations", "ts": 1790845734.8375306, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.48}

@@ -1,0 +1,405 @@
+{
+  "step": "Phase 2 - Step 3: Grounded Answer, Citation & Refusal Check",
+  "metrics": {
+    "total_questions": 15,
+    "overall_pass_rate": 1.0,
+    "theory_citation_validity": 1.0,
+    "theory_api_recall": 1.0,
+    "coding_citation_validity": 1.0,
+    "coding_api_recall": 1.0,
+    "coding_lua_block_rate": 1.0,
+    "out_of_scope_refusal_recall": 1.0,
+    "out_of_scope_refusal_precision": 1.0,
+    "false_refusals_on_answerable": 0,
+    "refusal_phrase_enforced": "I don't have enough information in the provided sources to answer that."
+  },
+  "per_question": [
+    {
+      "id": "Q01",
+      "kind": "theory",
+      "question": "What does love.update(dt) do and why is dt important?",
+      "answerable": true,
+      "is_refusal": false,
+      "cited_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "citation_valid": true,
+      "expected_apis": [
+        "love.update",
+        "dt"
+      ],
+      "matched_apis": [
+        "love.update",
+        "dt"
+      ],
+      "api_recall": 1.0,
+      "check_summary": "APIs: 2/2 (100%)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 2772.4,
+      "cost_usd": 0.001636,
+      "answer_preview": "The `love.update(dt)` function is a callback used to update the state of the game every frame [3]. It is called continuously and is the primary location for performing game logic a",
+      "full_answer": "The `love.update(dt)` function is a callback used to update the state of the game every frame [3]. It is called continuously and is the primary location for performing game logic and math [4]. The parameter `dt` (delta-time) represents the amount of time in seconds that has passed since the function was last called [2][3][4]. It is important because it allows for frame-rate independent movement; by multiplying a speed value by `dt`, you ensure that objects move at a consistent speed regardless of how fast the processor runs [1][2][4]."
+    },
+    {
+      "id": "Q02",
+      "kind": "theory",
+      "question": "When is love.load() called and what is it used for in a Love2D game?",
+      "answerable": true,
+      "is_refusal": false,
+      "cited_indices": [
+        3,
+        4
+      ],
+      "citation_valid": true,
+      "expected_apis": [
+        "love.load"
+      ],
+      "matched_apis": [
+        "love.load"
+      ],
+      "api_recall": 1.0,
+      "check_summary": "APIs: 1/1 (100%)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 2041.1,
+      "cost_usd": 0.001397,
+      "answer_preview": "The `love.load` function is called by the default `love.run` exactly once at the beginning of the game [4]. It serves as an ideal location to initialize game content, load resource",
+      "full_answer": "The `love.load` function is called by the default `love.run` exactly once at the beginning of the game [4]. It serves as an ideal location to initialize game content, load resources, and prepare necessary game state before any other callback functions are executed [3]."
+    },
+    {
+      "id": "Q03",
+      "kind": "theory",
+      "question": "How do I draw a filled or outlined circle on the screen using love.graphics.circle?",
+      "answerable": true,
+      "is_refusal": false,
+      "cited_indices": [
+        4
+      ],
+      "citation_valid": true,
+      "expected_apis": [
+        "love.graphics.circle",
+        "fill",
+        "line"
+      ],
+      "matched_apis": [
+        "love.graphics.circle",
+        "fill",
+        "line"
+      ],
+      "api_recall": 1.0,
+      "check_summary": "APIs: 3/3 (100%)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 2969.7,
+      "cost_usd": 0.001577,
+      "answer_preview": "To draw a circle in L\u00d6VE, you use the `love.graphics.circle` function [4]. This function requires a draw mode, the x and y coordinates for the center of the circle, and the radius ",
+      "full_answer": "To draw a circle in L\u00d6VE, you use the `love.graphics.circle` function [4]. This function requires a draw mode, the x and y coordinates for the center of the circle, and the radius [4].\n\n```lua\nfunction love.draw()\n    -- Draw a filled circle\n    love.graphics.circle(\"fill\", 400, 300, 50)\n\n    -- Draw an outlined circle\n    love.graphics.circle(\"line\", 400, 300, 50)\nend\n```\n\n### Explanation & Citations\n1. **Function Usage**: The `love.graphics.circle` function is used to render circles [4].\n2. **Draw Modes**: The first argument specifies the mode, which can be either \"fill\" to draw a solid circle or \"line\" to draw only the outline [4].\n3. **Coordinates and Size**: The subsequent arguments define the center position (x, y) and the radius of the circle [4]."
+    },
+    {
+      "id": "Q04",
+      "kind": "theory",
+      "question": "What arguments does love.graphics.rectangle take to draw a rectangle?",
+      "answerable": true,
+      "is_refusal": false,
+      "cited_indices": [
+        1,
+        2
+      ],
+      "citation_valid": true,
+      "expected_apis": [
+        "love.graphics.rectangle",
+        "width",
+        "height"
+      ],
+      "matched_apis": [
+        "love.graphics.rectangle",
+        "width",
+        "height"
+      ],
+      "api_recall": 1.0,
+      "check_summary": "APIs: 3/3 (100%)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 3323.9,
+      "cost_usd": 0.001486,
+      "answer_preview": "The `love.graphics.rectangle` function accepts the following arguments: `mode`, `x`, `y`, `width`, `height`, `rx`, `ry`, and `segments` [1]. The `mode` argument specifies how to dr",
+      "full_answer": "The `love.graphics.rectangle` function accepts the following arguments: `mode`, `x`, `y`, `width`, `height`, `rx`, `ry`, and `segments` [1]. The `mode` argument specifies how to draw the rectangle (e.g., \"fill\"), while `x` and `y` define the position of the top-left corner [1]. The `width` and `height` define the size, and `rx`, `ry`, and `segments` are used for drawing rounded corners [1][2]."
+    },
+    {
+      "id": "Q05",
+      "kind": "theory",
+      "question": "What is the difference between static and stream in love.audio.newSource?",
+      "answerable": true,
+      "is_refusal": false,
+      "cited_indices": [
+        1,
+        4
+      ],
+      "citation_valid": true,
+      "expected_apis": [
+        "static",
+        "stream"
+      ],
+      "matched_apis": [
+        "static",
+        "stream"
+      ],
+      "api_recall": 1.0,
+      "check_summary": "APIs: 2/2 (100%)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 2273.7,
+      "cost_usd": 0.001672,
+      "answer_preview": "In L\u00d6VE, the `static` and `stream` types determine how audio data is handled in memory [1][4].   - **Static**: The entire audio file is decoded and loaded into memory at once [4]. ",
+      "full_answer": "In L\u00d6VE, the `static` and `stream` types determine how audio data is handled in memory [1][4]. \n\n- **Static**: The entire audio file is decoded and loaded into memory at once [4]. This is recommended for short sound effects to ensure quick playback [1][4].\n- **Stream**: The audio file is decoded in smaller chunks only when needed, rather than loading the entire file into memory [4]. This is the preferred method for music files to avoid loading large amounts of data into memory simultaneously [1][4]."
+    },
+    {
+      "id": "Q06",
+      "kind": "theory",
+      "question": "How do I check if a keyboard key is held down in Love2D?",
+      "answerable": true,
+      "is_refusal": false,
+      "cited_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "citation_valid": true,
+      "expected_apis": [
+        "love.keyboard.isDown"
+      ],
+      "matched_apis": [
+        "love.keyboard.isDown"
+      ],
+      "api_recall": 1.0,
+      "check_summary": "APIs: 1/1 (100%)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 3480.1,
+      "cost_usd": 0.001676,
+      "answer_preview": "To check if a keyboard key is currently held down in L\u00d6VE, you use the `love.keyboard.isDown` function [1][3]. This function takes a string representing the key you want to check a",
+      "full_answer": "To check if a keyboard key is currently held down in L\u00d6VE, you use the `love.keyboard.isDown` function [1][3]. This function takes a string representing the key you want to check and returns a boolean value: `true` if the key is down, and `false` otherwise [3][4]. It is recommended to perform this check inside the `love.update` callback [1].\n\n```lua\n-- Example: Checking if the space key is held down\nfunction love.update(dt)\n    if love.keyboard.isDown(\" \") then\n        -- Logic to execute while the key is held\n        print(\"The SPACE key is held down!\")\n    end\nend\n```\n\nAdditionally, `love.keyboard.isDown` can accept multiple keys as arguments or a table of keys to check if any of them are currently pressed [2][4]."
+    },
+    {
+      "id": "Q07",
+      "kind": "theory",
+      "question": "How do I create a Box2D physics world using love.physics.newWorld?",
+      "answerable": true,
+      "is_refusal": false,
+      "cited_indices": [
+        2,
+        3,
+        4
+      ],
+      "citation_valid": true,
+      "expected_apis": [
+        "love.physics.newWorld"
+      ],
+      "matched_apis": [
+        "love.physics.newWorld"
+      ],
+      "api_recall": 1.0,
+      "check_summary": "APIs: 1/1 (100%)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 2725.3,
+      "cost_usd": 0.001848,
+      "answer_preview": "To create a physics world in L\u00d6VE, you use the `love.physics.newWorld` function [2][4].   ```lua function love.load()   -- Set the meter scale (e.g., 64 pixels per meter)   love.ph",
+      "full_answer": "To create a physics world in L\u00d6VE, you use the `love.physics.newWorld` function [2][4]. \n\n```lua\nfunction love.load()\n  -- Set the meter scale (e.g., 64 pixels per meter)\n  love.physics.setMeter(64)\n  \n  -- Create the world with horizontal gravity (0) and vertical gravity (9.81 * 64)\n  -- The third argument 'true' enables sleep for bodies\n  world = love.physics.newWorld(0, 9.81 * 64, true)\nend\n```\n\n### Step-by-Step Explanation:\n1. **`love.physics.setMeter(number)`**: This defines how many pixels represent one meter in your physics simulation [2][3].\n2. **`love.physics.newWorld(gx, gy, sleep)`**: This function initializes the physics world [2][4]. \n   - `gx` and `gy` define the gravity vector (horizontal and vertical) [4].\n   - The third argument is a boolean that determines if bodies in the world are allowed to sleep when they come to rest, which improves performance [2][4].\n3. **Usage**: The resulting `world` object is then used to create bodies and manage the physics simulation [4]."
+    },
+    {
+      "id": "Q08",
+      "kind": "theory",
+      "question": "How do I change the game window title using love.window.setTitle?",
+      "answerable": true,
+      "is_refusal": false,
+      "cited_indices": [
+        2,
+        3
+      ],
+      "citation_valid": true,
+      "expected_apis": [
+        "love.window.setTitle"
+      ],
+      "matched_apis": [
+        "love.window.setTitle"
+      ],
+      "api_recall": 1.0,
+      "check_summary": "APIs: 1/1 (100%)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 2188.1,
+      "cost_usd": 0.001411,
+      "answer_preview": "To change the window title in L\u00d6VE, you can use the `love.window.setTitle(title)` function, where `title` is a string representing the new name of the window [2].   ```lua -- Examp",
+      "full_answer": "To change the window title in L\u00d6VE, you can use the `love.window.setTitle(title)` function, where `title` is a string representing the new name of the window [2]. \n\n```lua\n-- Example of changing the window title\nlove.window.setTitle(\"My New Game Title\")\n```\n\nNote that constantly updating the window title is discouraged as it can lead to issues on some systems [2]. You can also retrieve the current title using `love.window.getTitle()` [3]."
+    },
+    {
+      "id": "Q09",
+      "kind": "coding",
+      "question": "Write Lua code to move a rectangle on screen using arrow keys and delta time dt in love.update and draw it in love.draw.",
+      "answerable": true,
+      "is_refusal": false,
+      "cited_indices": [
+        3,
+        11,
+        15,
+        18
+      ],
+      "citation_valid": true,
+      "expected_apis": [
+        "love.update",
+        "love.draw",
+        "love.keyboard.isDown",
+        "love.graphics.rectangle"
+      ],
+      "matched_apis": [
+        "love.update",
+        "love.draw",
+        "love.keyboard.isDown",
+        "love.graphics.rectangle"
+      ],
+      "api_recall": 1.0,
+      "check_summary": "Code APIs: 4/4 (100%)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 5121.0,
+      "cost_usd": 0.002745,
+      "answer_preview": "To move a rectangle using arrow keys, you can update its coordinates in `love.update` using the provided `dt` (delta time) to ensure frame-rate independent movement [3].  ```lua lo",
+      "full_answer": "To move a rectangle using arrow keys, you can update its coordinates in `love.update` using the provided `dt` (delta time) to ensure frame-rate independent movement [3].\n\n```lua\nlocal x, y = 100, 100\nlocal speed = 200\n\nfunction love.update(dt)\n    if love.keyboard.isDown(\"up\") then\n        y = y - speed * dt\n    elseif love.keyboard.isDown(\"down\") then\n        y = y + speed * dt\n    end\n\n    if love.keyboard.isDown(\"left\") then\n        x = x - speed * dt\n    elseif love.keyboard.isDown(\"right\") then\n        x = x + speed * dt\n    end\nend\n\nfunction love.draw()\n    love.graphics.rectangle(\"fill\", x, y, 50, 50)\nend\n```\n\n### Explanation & Citations\n1. **Movement Logic**: The `love.update(dt)` function is used to calculate position changes based on `dt`, which represents the time elapsed since the last frame [3].\n2. **Input Handling**: `love.keyboard.isDown(key)` is used to check if specific arrow keys are currently held down [11][15].\n3. **Rendering**: `love.graphics.rectangle(mode, x, y, width, height)` is used to draw the rectangle at the updated coordinates [18]."
+    },
+    {
+      "id": "Q10",
+      "kind": "coding",
+      "question": "Write Lua code to load an audio sound file in love.load and play it in Love2D.",
+      "answerable": true,
+      "is_refusal": false,
+      "cited_indices": [
+        1,
+        4,
+        6,
+        7,
+        8,
+        10
+      ],
+      "citation_valid": true,
+      "expected_apis": [
+        "love.load",
+        "love.audio.newSource",
+        "play"
+      ],
+      "matched_apis": [
+        "love.load",
+        "love.audio.newSource",
+        "play"
+      ],
+      "api_recall": 1.0,
+      "check_summary": "Code APIs: 3/3 (100%)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 6044.3,
+      "cost_usd": 0.002709,
+      "answer_preview": "To load and play an audio file in L\u00d6VE, you use `love.audio.newSource` to create a sound object and then call the `:play()` method on that object [6][7].  ```lua function love.load",
+      "full_answer": "To load and play an audio file in L\u00d6VE, you use `love.audio.newSource` to create a sound object and then call the `:play()` method on that object [6][7].\n\n```lua\nfunction love.load()\n    -- Load the sound file. Use 'static' for short effects or 'stream' for music [6][8].\n    sound = love.audio.newSource(\"sound.ogg\", \"static\")\nend\n\nfunction love.keypressed(key)\n    -- Play the sound when a key is pressed\n    if key == \"space\" then\n        sound:play()\n    end\nend\n```\n\n### Step-by-Step Explanation:\n1. **Loading**: `love.audio.newSource` is used to load the audio file into memory. The second argument specifies the mode: `\"static\"` for short sound effects or `\"stream\"` for longer files like background music [6][8].\n2. **Playing**: Once the source object is created, you can trigger playback using the `:play()` method on the source object [7][10].\n3. **Callbacks**: `love.load` is used to initialize the game state (loading the sound), and input callbacks like `love.keypressed` are used to trigger the playback action [1][4]."
+    },
+    {
+      "id": "Q11",
+      "kind": "out_of_scope",
+      "question": "How do I write a C# MonoBehaviour script with Rigidbody in Unity?",
+      "answerable": false,
+      "is_refusal": true,
+      "cited_indices": [],
+      "citation_valid": true,
+      "expected_apis": [],
+      "matched_apis": [],
+      "api_recall": 1.0,
+      "check_summary": "REFUSED (Exact)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 2977.3,
+      "cost_usd": 0.001803,
+      "answer_preview": "I don't have enough information in the provided sources to answer that.",
+      "full_answer": "I don't have enough information in the provided sources to answer that."
+    },
+    {
+      "id": "Q12",
+      "kind": "out_of_scope",
+      "question": "How do I create a 3D vehicle physics controller in Unreal Engine using C++?",
+      "answerable": false,
+      "is_refusal": true,
+      "cited_indices": [],
+      "citation_valid": true,
+      "expected_apis": [],
+      "matched_apis": [],
+      "api_recall": 1.0,
+      "check_summary": "REFUSED (Exact)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 1999.9,
+      "cost_usd": 0.001056,
+      "answer_preview": "I don't have enough information in the provided sources to answer that.",
+      "full_answer": "I don't have enough information in the provided sources to answer that."
+    },
+    {
+      "id": "Q13",
+      "kind": "out_of_scope",
+      "question": "How do I manage component state using useState and useEffect hooks in React?",
+      "answerable": false,
+      "is_refusal": true,
+      "cited_indices": [],
+      "citation_valid": true,
+      "expected_apis": [],
+      "matched_apis": [],
+      "api_recall": 1.0,
+      "check_summary": "REFUSED (Exact)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 2269.3,
+      "cost_usd": 0.001062,
+      "answer_preview": "I don't have enough information in the provided sources to answer that.",
+      "full_answer": "I don't have enough information in the provided sources to answer that."
+    },
+    {
+      "id": "Q14",
+      "kind": "out_of_scope",
+      "question": "What is the best recipe and oven temperature for baking sourdough pasta at home?",
+      "answerable": false,
+      "is_refusal": true,
+      "cited_indices": [],
+      "citation_valid": true,
+      "expected_apis": [],
+      "matched_apis": [],
+      "api_recall": 1.0,
+      "check_summary": "REFUSED (Exact)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 1419.9,
+      "cost_usd": 0.001021,
+      "answer_preview": "I don't have enough information in the provided sources to answer that.",
+      "full_answer": "I don't have enough information in the provided sources to answer that."
+    },
+    {
+      "id": "Q15",
+      "kind": "out_of_scope",
+      "question": "How do I call love.graphics.draw3DRaytracedMesh() to enable hardware raytracing in Love2D?",
+      "answerable": false,
+      "is_refusal": true,
+      "cited_indices": [],
+      "citation_valid": true,
+      "expected_apis": [],
+      "matched_apis": [],
+      "api_recall": 1.0,
+      "check_summary": "REFUSED (Exact)",
+      "passed": true,
+      "cached": false,
+      "latency_ms": 2098.4,
+      "cost_usd": 0.001086,
+      "answer_preview": "I don't have enough information in the provided sources to answer that.",
+      "full_answer": "I don't have enough information in the provided sources to answer that."
+    }
+  ]
+}

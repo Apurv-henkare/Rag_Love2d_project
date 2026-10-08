@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790839331.5726871, "query": "code snippet of unity", "status": "ok", "duration_ms": 0.45}
+{"stage": "retrieve", "ts": 1790839331.574319, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2654.09}
+{"stage": "llm.generate", "ts": 1790839334.263908, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2049.68}
+{"stage": "validate.citations", "ts": 1790839336.314678, "n_sources": 20, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.49}

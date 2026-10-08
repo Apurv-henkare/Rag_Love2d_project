@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795680.7248683, "query": "When is love.load() called and what is it used for in a Love2D game?", "status": "ok", "duration_ms": 0.11}
+{"stage": "retrieve", "ts": 1790795680.7257447, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 64.69}
+{"stage": "llm.generate", "ts": 1790795680.7932625, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1811.7}
+{"stage": "validate.citations", "ts": 1790795682.605288, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.01}

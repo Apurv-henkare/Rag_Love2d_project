@@ -1,0 +1,2 @@
+{"stage": "guard.input", "ts": 1790796280.174138, "query": "How do I change the game window title using love.window.setTitle?", "status": "ok", "duration_ms": 0.03}
+{"stage": "retrieve", "ts": 1790796280.175004, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 13.31}

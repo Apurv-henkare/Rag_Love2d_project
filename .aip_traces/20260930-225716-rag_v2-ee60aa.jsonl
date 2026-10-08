@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790789236.6665714, "query": "Write Lua code to move a player rectangle on screen using arrow keys in Love2D.", "status": "ok", "duration_ms": 0.73}
+{"stage": "retrieve", "ts": 1790789236.6716554, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2645.46}
+{"stage": "llm.generate", "ts": 1790789239.3394399, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3111.78}
+{"stage": "validate.citations", "ts": 1790789242.4522836, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.89}

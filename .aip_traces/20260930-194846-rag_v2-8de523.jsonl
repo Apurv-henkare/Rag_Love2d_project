@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790777926.9377046, "query": "tell me the code of this project", "status": "ok", "duration_ms": 0.05}
+{"stage": "retrieve", "ts": 1790777926.939178, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 33.51}
+{"stage": "llm.generate", "ts": 1790777926.978594, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2303.98}
+{"stage": "validate.citations", "ts": 1790777929.284092, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.06}

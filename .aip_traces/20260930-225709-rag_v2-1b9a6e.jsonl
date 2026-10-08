@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790789229.0320685, "query": "How do I draw a rectangle with rounded corners in Love2D?", "status": "ok", "duration_ms": 0.66}
+{"stage": "retrieve", "ts": 1790789229.037206, "mode": "gold", "n_chunks": 1, "status": "ok", "duration_ms": 0.0}
+{"stage": "llm.generate", "ts": 1790789229.0451589, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1760.97}
+{"stage": "validate.citations", "ts": 1790789230.8072236, "n_sources": 1, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.83}

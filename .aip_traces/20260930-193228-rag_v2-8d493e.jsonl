@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790776948.989686, "query": "careet mini shooting game", "status": "ok", "duration_ms": 0.02}
+{"stage": "retrieve", "ts": 1790776948.9906652, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 42.23}
+{"stage": "llm.generate", "ts": 1790776949.04078, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1853.27}
+{"stage": "validate.citations", "ts": 1790776950.8951447, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.03}

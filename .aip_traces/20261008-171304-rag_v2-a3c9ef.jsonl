@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791459784.3882298, "query": "what is code snippet for movinbg player from left to right", "status": "ok", "duration_ms": 0.73}
+{"stage": "retrieve", "ts": 1791459784.7198815, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 3335.86}
+{"stage": "llm.generate", "ts": 1791459788.2026012, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2968.41}
+{"stage": "validate.citations", "ts": 1791459791.172299, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 4.77}

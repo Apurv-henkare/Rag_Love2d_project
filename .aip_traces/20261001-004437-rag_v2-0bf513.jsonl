@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795677.9518645, "query": "What does love.update(dt) do and why is dt important?", "status": "ok", "duration_ms": 0.02}
+{"stage": "retrieve", "ts": 1790795677.9522123, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 47.62}
+{"stage": "llm.generate", "ts": 1790795678.0069988, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2428.81}
+{"stage": "validate.citations", "ts": 1790795680.436101, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.01}

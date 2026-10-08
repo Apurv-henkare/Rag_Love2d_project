@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791137850.5370893, "query": "which data structure is available in Lua", "status": "ok", "duration_ms": 0.39}
+{"stage": "retrieve", "ts": 1791137850.5388534, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 172.66}
+{"stage": "llm.generate", "ts": 1791137850.7428687, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2455.78}
+{"stage": "validate.citations", "ts": 1791137853.1997638, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.84}

@@ -1,0 +1,2 @@
+{"stage": "guard.input", "ts": 1790789258.9032285, "query": "How do I create a 3D vehicle physics controller in Unreal Engine using C++?", "status": "ok", "duration_ms": 1.28}
+{"stage": "retrieve", "ts": 1790789258.915385, "mode": "gold", "n_chunks": 0, "status": "ok", "duration_ms": 0.01}

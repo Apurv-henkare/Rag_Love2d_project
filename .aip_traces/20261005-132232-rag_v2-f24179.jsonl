@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791186752.8507512, "query": "what is AAB collision", "status": "ok", "duration_ms": 0.71}
+{"stage": "retrieve", "ts": 1791186752.852645, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 177.82}
+{"stage": "llm.generate", "ts": 1791186753.042551, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2198.39}
+{"stage": "validate.citations", "ts": 1791186755.242868, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.8}

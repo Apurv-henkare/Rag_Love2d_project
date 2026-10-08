@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791118881.5844223, "query": "what is grapghics", "status": "ok", "duration_ms": 1.65}
+{"stage": "retrieve", "ts": 1791118881.5889575, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 164.99}
+{"stage": "llm.generate", "ts": 1791118881.788494, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1369.46}
+{"stage": "validate.citations", "ts": 1791118883.1593175, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.92}

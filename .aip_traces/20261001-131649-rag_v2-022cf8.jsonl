@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790840809.06633, "query": "wriet code snippet for  circle collisions", "status": "ok", "duration_ms": 0.71}
+{"stage": "retrieve", "ts": 1790840809.068242, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2087.3}
+{"stage": "llm.generate", "ts": 1790840811.2024343, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3173.59}
+{"stage": "validate.citations", "ts": 1790840814.3770776, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.87}

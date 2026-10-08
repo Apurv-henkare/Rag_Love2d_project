@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791191576.705377, "query": "can you tell me about in brief about love.graphics.ellipse with demo code", "status": "ok", "duration_ms": 0.59}
+{"stage": "retrieve", "ts": 1791191576.7075865, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 2408.55}
+{"stage": "llm.generate", "ts": 1791191579.2153902, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3527.39}
+{"stage": "validate.citations", "ts": 1791191582.7440283, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.71}

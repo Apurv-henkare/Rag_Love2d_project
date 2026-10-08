@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790789195.4264884, "query": "How do I create a physics world and set gravity in love.physics?", "status": "ok", "duration_ms": 1.1}
+{"stage": "retrieve", "ts": 1790789195.4367955, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 55.74}
+{"stage": "llm.generate", "ts": 1790789195.519051, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2490.32}
+{"stage": "validate.citations", "ts": 1790789198.0103865, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.88}

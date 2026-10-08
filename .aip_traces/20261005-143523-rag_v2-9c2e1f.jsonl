@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791191123.5687127, "query": "can you show demo code with example of love.load love.update love.draw ", "status": "ok", "duration_ms": 0.47}
+{"stage": "retrieve", "ts": 1791191123.5702407, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 3073.12}
+{"stage": "llm.generate", "ts": 1791191126.730818, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2881.28}
+{"stage": "validate.citations", "ts": 1791191129.613636, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.74}

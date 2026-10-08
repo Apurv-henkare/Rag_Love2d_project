@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791188679.62311, "query": "demo code for world gravity?", "status": "ok", "duration_ms": 1.46}
+{"stage": "retrieve", "ts": 1791188679.625564, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 4451.34}
+{"stage": "llm.generate", "ts": 1791188684.2243898, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3428.62}
+{"stage": "validate.citations", "ts": 1791188687.6543832, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.7}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795715.874391, "query": "How do I manage component state using useState and useEffect hooks in React?", "status": "ok", "duration_ms": 0.1}
+{"stage": "retrieve", "ts": 1790795715.8760417, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 36.99}
+{"stage": "llm.generate", "ts": 1790795715.916046, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1250.39}
+{"stage": "validate.citations", "ts": 1790795717.166763, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.01}

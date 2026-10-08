@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790849785.0197566, "query": "draw  a bezier curve", "status": "ok", "duration_ms": 0.5}
+{"stage": "retrieve", "ts": 1790849785.0213668, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 51.19}
+{"stage": "llm.generate", "ts": 1790849785.0876536, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2606.34}
+{"stage": "validate.citations", "ts": 1790849787.6944635, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.37}

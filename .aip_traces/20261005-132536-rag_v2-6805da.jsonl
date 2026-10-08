@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791186936.6313052, "query": "code for World:setCallbacks to handle collision events like beginContact ", "status": "ok", "duration_ms": 0.83}
+{"stage": "retrieve", "ts": 1791186936.6330588, "mode": "hybrid", "n_chunks": 17, "status": "ok", "duration_ms": 3067.98}
+{"stage": "llm.generate", "ts": 1791186939.7398753, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3919.24}
+{"stage": "validate.citations", "ts": 1791186943.6604428, "n_sources": 17, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.84}

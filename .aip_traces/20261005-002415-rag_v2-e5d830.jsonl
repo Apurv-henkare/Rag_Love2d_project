@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791140055.8969944, "query": "code snippet for shooting  a player", "status": "ok", "duration_ms": 0.43}
+{"stage": "retrieve", "ts": 1791140055.898043, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 2021.88}
+{"stage": "llm.generate", "ts": 1791140057.9553063, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3435.65}
+{"stage": "validate.citations", "ts": 1791140061.3915472, "n_sources": 20, "initial_valid": false, "reason": "Code calls unsupported Love2D API(s) ['love.graphics.rectangle'] not present in the retrieved documentation chunks. You may only use engine functions from the provided sources.", "repaired_valid": true, "status": "ok", "duration_ms": 3515.37}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790850189.4418986, "query": "list all functions of love.physics:", "status": "ok", "duration_ms": 0.69}
+{"stage": "retrieve", "ts": 1790850189.443232, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 59.62}
+{"stage": "llm.generate", "ts": 1790850189.533358, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3463.33}
+{"stage": "validate.citations", "ts": 1790850192.9971292, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.54}

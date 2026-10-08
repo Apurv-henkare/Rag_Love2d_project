@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791182462.0596948, "query": "tell me about love.grapghics.circle", "status": "ok", "duration_ms": 0.71}
+{"stage": "retrieve", "ts": 1791182462.0622983, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 153.01}
+{"stage": "llm.generate", "ts": 1791182462.2369034, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2376.03}
+{"stage": "validate.citations", "ts": 1791182464.6144025, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.91}

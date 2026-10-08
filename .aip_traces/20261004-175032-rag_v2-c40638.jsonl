@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791116432.847165, "query": "what is LOVE", "status": "ok", "duration_ms": 0.98}
+{"stage": "retrieve", "ts": 1791116432.8497398, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 161.13}
+{"stage": "llm.generate", "ts": 1791116433.0401945, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2162.77}
+{"stage": "validate.citations", "ts": 1791116435.2040837, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.84}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790778335.7723098, "query": "create a tic tac toe game", "status": "ok", "duration_ms": 0.03}
+{"stage": "retrieve", "ts": 1790778335.7737205, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2140.77}
+{"stage": "llm.generate", "ts": 1790778337.9232442, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3004.39}
+{"stage": "validate.citations", "ts": 1790778340.9281995, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.03}

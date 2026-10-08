@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791312836.4908469, "query": "can you tell me about love.grapghics.rectangle", "status": "ok", "duration_ms": 12.71}
+{"stage": "retrieve", "ts": 1791312836.5043015, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 1897.66}
+{"stage": "llm.generate", "ts": 1791312838.4129438, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1737.57}
+{"stage": "validate.citations", "ts": 1791312840.1511111, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 37.21}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791183275.5821848, "query": "code snippet for pong game and ball moving with random moving adn checking AABB collisions adn two p", "status": "ok", "duration_ms": 0.71}
+{"stage": "retrieve", "ts": 1791183275.583529, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 2254.83}
+{"stage": "llm.generate", "ts": 1791183277.8717368, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 4153.68}
+{"stage": "validate.citations", "ts": 1791183282.0259693, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.98}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790784300.7092676, "query": "code snippet for rotating circle", "status": "ok", "duration_ms": 0.83}
+{"stage": "retrieve", "ts": 1790784300.7105236, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 1772.53}
+{"stage": "llm.generate", "ts": 1790784302.4956076, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2726.48}
+{"stage": "validate.citations", "ts": 1790784305.2223995, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.33}

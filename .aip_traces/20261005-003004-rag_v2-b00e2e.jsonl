@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791140404.930543, "query": "code snippet for pong game", "status": "ok", "duration_ms": 0.9}
+{"stage": "retrieve", "ts": 1791140404.933132, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 2876.5}
+{"stage": "llm.generate", "ts": 1791140407.864655, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3099.45}
+{"stage": "validate.citations", "ts": 1791140410.9651062, "n_sources": 20, "initial_valid": false, "reason": "Code calls unsupported Love2D API(s) ['love.graphics.rectangle', 'love.graphics.circle'] not present in the retrieved documentation chunks. You may only use engine functions from the provided sources.", "repaired_valid": true, "status": "ok", "duration_ms": 3291.32}

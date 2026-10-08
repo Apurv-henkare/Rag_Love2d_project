@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790785823.950409, "query": "How do I make a physics body ignore gravity in Love2D?", "status": "ok", "duration_ms": 0.55}
+{"stage": "retrieve", "ts": 1790785823.951507, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 25.77}
+{"stage": "llm.generate", "ts": 1790785823.9837112, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2357.15}
+{"stage": "validate.citations", "ts": 1790785826.341217, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.37}

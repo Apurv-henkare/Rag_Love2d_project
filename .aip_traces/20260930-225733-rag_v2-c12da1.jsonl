@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790789253.6045423, "query": "How do I create a bouncing ball that reflects off the window edges in Love2D? Provide Lua code.", "status": "ok", "duration_ms": 1.18}
+{"stage": "retrieve", "ts": 1790789253.6147296, "mode": "gold", "n_chunks": 1, "status": "ok", "duration_ms": 0.0}
+{"stage": "llm.generate", "ts": 1790789253.6263204, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2957.92}
+{"stage": "validate.citations", "ts": 1790789256.5853145, "n_sources": 1, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.95}

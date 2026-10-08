@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790776373.188635, "query": "can you show hwo to make shooting game", "status": "ok", "duration_ms": 0.08}
+{"stage": "retrieve", "ts": 1790776373.1911786, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2769.28}
+{"stage": "llm.generate", "ts": 1790776375.9733052, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3160.72}
+{"stage": "validate.citations", "ts": 1790776379.1353476, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.05}

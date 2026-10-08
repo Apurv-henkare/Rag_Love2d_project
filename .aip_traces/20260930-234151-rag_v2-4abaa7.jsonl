@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790791911.1094365, "query": "How do I check if a keyboard key is held down in Love2D?", "status": "ok", "duration_ms": 0.57}
+{"stage": "retrieve", "ts": 1790791911.1107147, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 27.63}
+{"stage": "llm.generate", "ts": 1790791911.149996, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2229.71}
+{"stage": "validate.citations", "ts": 1790791913.380757, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.89}

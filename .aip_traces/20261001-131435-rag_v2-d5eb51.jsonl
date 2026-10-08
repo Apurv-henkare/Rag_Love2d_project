@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790840675.7965806, "query": "write code snppet for bullets firing", "status": "ok", "duration_ms": 0.38}
+{"stage": "retrieve", "ts": 1790840675.797638, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2451.29}
+{"stage": "llm.generate", "ts": 1790840678.28967, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2685.33}
+{"stage": "validate.citations", "ts": 1790840680.976797, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.96}

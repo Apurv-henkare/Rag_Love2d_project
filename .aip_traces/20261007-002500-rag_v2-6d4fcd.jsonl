@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791312900.5833163, "query": "code snippet for player to move left to right speed 456", "status": "ok", "duration_ms": 0.87}
+{"stage": "retrieve", "ts": 1791312900.584818, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 2280.01}
+{"stage": "llm.generate", "ts": 1791312902.8974223, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3206.5}
+{"stage": "validate.citations", "ts": 1791312906.104511, "n_sources": 19, "initial_valid": false, "reason": "Attribution mismatch in Traceability Table: 'love.load' is cited to Chunk [1], but none of those cited chunks contain 'love.load' in their body content (code/syntax for it was actually found in Chunk [7, 8, 16, 17]). Please cite the exact chunk that demonstrates or defines this function.", "repaired_valid": true, "status": "ok", "duration_ms": 3221.33}

@@ -1,0 +1,2 @@
+{"stage": "guard.input", "ts": 1791459907.447651, "query": "what is blob", "status": "ok", "duration_ms": 0.58}
+{"stage": "retrieve", "ts": 1791459907.4493494, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 184.36}

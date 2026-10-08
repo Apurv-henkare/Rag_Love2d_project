@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791187576.0551925, "query": "code snippet for mplementing gravity ", "status": "ok", "duration_ms": 0.74}
+{"stage": "retrieve", "ts": 1791187576.0590074, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 2463.89}
+{"stage": "llm.generate", "ts": 1791187578.5667117, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3356.76}
+{"stage": "validate.citations", "ts": 1791187581.9247093, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.84}

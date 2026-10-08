@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790775325.8651357, "query": "complete code snippet fro shooting game", "status": "ok", "duration_ms": 0.02}
+{"stage": "retrieve", "ts": 1790775325.865799, "mode": "dense", "n_chunks": 15, "status": "ok", "duration_ms": 1826.94}
+{"stage": "llm.generate", "ts": 1790775327.6979823, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1571.78}
+{"stage": "validate.citations", "ts": 1790775329.2702494, "n_sources": 15, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.02}

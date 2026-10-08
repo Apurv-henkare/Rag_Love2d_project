@@ -1,0 +1,84 @@
+{
+  "step": "step1_engineering_spine",
+  "model": "gemini-3.1-flash-lite",
+  "corpus": {
+    "total_md_files": 6,
+    "current_files": [
+      "01-getting-started.md",
+      "02-callbacks.md",
+      "04-graphics.md",
+      "05-physics.md",
+      "06-modules.md"
+    ],
+    "archived_files": [
+      "99-legacy-love09-ARCHIVED.md"
+    ]
+  },
+  "test1_cache": {
+    "query": "What does love.update(dt) do and why is dt important?",
+    "sha256_key": "136cd11322417b3c56f59982fadc51f3",
+    "cold_latency_ms": 2750.76,
+    "cold_cost_usd": 0.001515,
+    "warm_latency_ms": 84.43,
+    "warm_cost_usd": 0.0,
+    "speedup_factor": 32.6,
+    "sqlite_cache_stats": {
+      "ext_var_a": 10,
+      "ext_var_c": 10,
+      "planner_v6": 3,
+      "rag_m2_v2": 33
+    }
+  },
+  "test2_cost_and_latency": {
+    "calls_total": 4,
+    "calls_live": 3,
+    "calls_cached": 1,
+    "tokens_in": 7731,
+    "tokens_out": 977,
+    "usd": 0.004762,
+    "latency_p50_ms": 2218.4,
+    "latency_p95_ms": 2226.0
+  },
+  "test3_budget_breaker": {
+    "limit_usd": 0.0001,
+    "triggered": true,
+    "message": "Budget exceeded: spent $0.0019 > limit $0.00 after 1 calls."
+  },
+  "test4_trace": {
+    "trace_file": "20260930-234151-rag_v2-4abaa7.jsonl",
+    "spans": [
+      {
+        "stage": "guard.input",
+        "ts": 1790791911.1094365,
+        "query": "How do I check if a keyboard key is held down in Love2D?",
+        "status": "ok",
+        "duration_ms": 0.57
+      },
+      {
+        "stage": "retrieve",
+        "ts": 1790791911.1107147,
+        "mode": "dense",
+        "n_chunks": 5,
+        "status": "ok",
+        "duration_ms": 27.63
+      },
+      {
+        "stage": "llm.generate",
+        "ts": 1790791911.149996,
+        "model": "gemini-3.1-flash-lite",
+        "version": "v2",
+        "status": "ok",
+        "duration_ms": 2229.71
+      },
+      {
+        "stage": "validate.citations",
+        "ts": 1790791913.380757,
+        "n_sources": 5,
+        "initial_valid": true,
+        "reason": "ok",
+        "status": "ok",
+        "duration_ms": 0.89
+      }
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791138388.3566377, "query": "code snippet for pong game", "status": "ok", "duration_ms": 0.83}
+{"stage": "retrieve", "ts": 1791138388.358786, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 2322.92}
+{"stage": "llm.generate", "ts": 1791138390.776907, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3129.62}
+{"stage": "validate.citations", "ts": 1791138393.9075692, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.9}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791188554.5448399, "query": "code snippte for gravity world:physics", "status": "ok", "duration_ms": 0.39}
+{"stage": "retrieve", "ts": 1791188554.5460534, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 144.78}
+{"stage": "llm.generate", "ts": 1791188554.7229128, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3524.52}
+{"stage": "validate.citations", "ts": 1791188558.2486925, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 3.49}

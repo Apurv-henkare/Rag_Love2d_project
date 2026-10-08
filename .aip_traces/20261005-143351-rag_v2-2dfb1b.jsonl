@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791191031.154763, "query": "can you tell me about love.graphics.setCOlro with demo code", "status": "ok", "duration_ms": 0.54}
+{"stage": "retrieve", "ts": 1791191031.156449, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 2610.25}
+{"stage": "llm.generate", "ts": 1791191033.863464, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3385.1}
+{"stage": "validate.citations", "ts": 1791191037.249631, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 2.04}

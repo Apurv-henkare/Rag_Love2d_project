@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790841214.4559448, "query": "code snippet for random spawn ", "status": "ok", "duration_ms": 0.32}
+{"stage": "retrieve", "ts": 1790841214.4590278, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2081.74}
+{"stage": "llm.generate", "ts": 1790841216.5641978, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2695.68}
+{"stage": "validate.citations", "ts": 1790841219.2609868, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.88}

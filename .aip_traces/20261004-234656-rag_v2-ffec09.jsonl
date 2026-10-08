@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791137816.9973161, "query": "which function is sued to draw circle in loev2d", "status": "ok", "duration_ms": 0.76}
+{"stage": "retrieve", "ts": 1791137816.9995446, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 193.72}
+{"stage": "llm.generate", "ts": 1791137817.2162635, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2323.39}
+{"stage": "validate.citations", "ts": 1791137819.5409224, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.81}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791190068.7424607, "query": "cna you tell me about love.graphics.rectangle adn demo code", "status": "ok", "duration_ms": 0.53}
+{"stage": "retrieve", "ts": 1791190068.7472775, "mode": "hybrid", "n_chunks": 18, "status": "ok", "duration_ms": 3945.31}
+{"stage": "llm.generate", "ts": 1791190072.7813056, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3446.96}
+{"stage": "validate.citations", "ts": 1791190076.229407, "n_sources": 18, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.6}

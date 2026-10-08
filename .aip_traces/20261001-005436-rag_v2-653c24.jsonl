@@ -1,0 +1,2 @@
+{"stage": "guard.input", "ts": 1790796276.359361, "query": "How do I draw a filled or outlined circle on the screen using love.graphics.circle?", "status": "ok", "duration_ms": 0.11}
+{"stage": "retrieve", "ts": 1790796276.3607824, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 22.68}

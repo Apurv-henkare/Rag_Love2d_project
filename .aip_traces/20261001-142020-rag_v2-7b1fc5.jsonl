@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790844620.673418, "query": "what is the blob in documentation", "status": "ok", "duration_ms": 0.44}
+{"stage": "retrieve", "ts": 1790844620.6759992, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 48.41}
+{"stage": "llm.generate", "ts": 1790844620.7543237, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2353.76}
+{"stage": "validate.citations", "ts": 1790844623.1088448, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.64}

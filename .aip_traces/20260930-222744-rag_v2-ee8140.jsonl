@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790787464.4980273, "query": "What is love.load() in Love2D?", "status": "ok", "duration_ms": 1.12}
+{"stage": "retrieve", "ts": 1790787464.501215, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 930.89}
+{"stage": "llm.generate", "ts": 1790787465.4585326, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2388.55}
+{"stage": "validate.citations", "ts": 1790787467.8481696, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.9}

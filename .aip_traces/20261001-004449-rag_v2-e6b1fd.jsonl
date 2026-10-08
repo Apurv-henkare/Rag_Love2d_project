@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795689.0610797, "query": "What is the difference between static and stream in love.audio.newSource?", "status": "ok", "duration_ms": 0.1}
+{"stage": "retrieve", "ts": 1790795689.0626442, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 44.84}
+{"stage": "llm.generate", "ts": 1790795689.1116676, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2143.57}
+{"stage": "validate.citations", "ts": 1790795691.255705, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.02}

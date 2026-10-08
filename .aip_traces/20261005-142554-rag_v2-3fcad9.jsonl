@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791190554.8910599, "query": "code snippet for love.graphics.setColor", "status": "ok", "duration_ms": 0.55}
+{"stage": "retrieve", "ts": 1791190554.8938744, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 2948.62}
+{"stage": "llm.generate", "ts": 1791190557.8903077, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3703.73}
+{"stage": "validate.citations", "ts": 1791190561.5951836, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.64}

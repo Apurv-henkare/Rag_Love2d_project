@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790777230.796398, "query": "wriet code snippet to move player from left to right with speed 600", "status": "ok", "duration_ms": 0.05}
+{"stage": "retrieve", "ts": 1790777230.7978258, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2733.2}
+{"stage": "llm.generate", "ts": 1790777233.539917, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2284.59}
+{"stage": "validate.citations", "ts": 1790777235.8256187, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.05}

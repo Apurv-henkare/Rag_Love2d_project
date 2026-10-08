@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790838616.6200674, "query": "what is belnder", "status": "ok", "duration_ms": 0.05}
+{"stage": "retrieve", "ts": 1790838616.6211042, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 25.86}
+{"stage": "llm.generate", "ts": 1790838616.6543524, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1981.89}
+{"stage": "validate.citations", "ts": 1790838618.637353, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.03}

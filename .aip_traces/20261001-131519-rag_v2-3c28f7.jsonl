@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790840719.3583832, "query": "wriet code snippet for AABB collsion technique", "status": "ok", "duration_ms": 0.72}
+{"stage": "retrieve", "ts": 1790840719.360925, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 1605.16}
+{"stage": "llm.generate", "ts": 1790840720.995362, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3263.04}
+{"stage": "validate.citations", "ts": 1790840724.2595065, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.12}

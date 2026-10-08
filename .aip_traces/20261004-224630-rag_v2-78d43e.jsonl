@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791134190.032828, "query": "talk about love.graphics.drawCyberPortal(x, y, radius)", "status": "ok", "duration_ms": 0.27}
+{"stage": "retrieve", "ts": 1791134190.0336092, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 1268.36}
+{"stage": "llm.generate", "ts": 1791134191.362724, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1976.2}
+{"stage": "validate.citations", "ts": 1791134193.3392549, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.43}

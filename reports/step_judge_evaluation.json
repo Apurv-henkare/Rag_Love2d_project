@@ -1,0 +1,120 @@
+{
+  "step": "Phase 2 - Lab 4: Decoupled AI Judge Evaluation",
+  "date_evaluated": "2026-10-04 20:12:27",
+  "generator_tier": {
+    "tier_name": "MAIN",
+    "model": "gemini-3.1-flash-lite"
+  },
+  "judge_tier": {
+    "tier_name": "LARGE",
+    "model": "gemini-3.5-flash"
+  },
+  "metrics": {
+    "questions_evaluated": 5,
+    "average_faithfulness": 1.0,
+    "average_correctness_ratio": 1.0,
+    "self_preference_bias": "Eliminated via Decoupled Model Tiers + Rationale-First Schema"
+  },
+  "evaluations": [
+    {
+      "id": "Q01",
+      "kind": "theory",
+      "question": "What does love.update(dt) do and why is dt important?",
+      "answerable": true,
+      "generator_model": "gemini-3.1-flash-lite",
+      "judge_model": "gemini-3.5-flash",
+      "generated_answer": "The `love.update(dt)` function is a callback used to update the state of the game every frame [3]. It is called continuously and is the primary location for performing game logic and math [4]. The parameter `dt` (delta-time) represents the amount of time in seconds that has passed since the function was last called [2][3][4]. It is important because it allows for frame-rate independent movement; by multiplying a speed value by `dt`, you ensure that objects move at a consistent speed regardless of how fast the processor runs [1][2][4].",
+      "faithfulness": {
+        "score": 1,
+        "max_score": 1,
+        "rationale": "The generated answer is fully supported by the retrieved chunks. It accurately describes love.update(dt) and the role of dt (delta-time) in ensuring consistent, time-based movement (fixed speed) regardless of processor speed, as detailed in the references."
+      },
+      "correctness": {
+        "score": 2,
+        "max_score": 2,
+        "rationale": "The generated answer accurately and comprehensively explains the purpose of `love.update(dt)` and the importance of `dt` (delta-time) for frame-rate independent movement, correctly covering all expected concepts."
+      },
+      "judge_latency_ms": 9679.7
+    },
+    {
+      "id": "Q03",
+      "kind": "theory",
+      "question": "How do I draw a filled or outlined circle on the screen using love.graphics.circle?",
+      "answerable": true,
+      "generator_model": "gemini-3.1-flash-lite",
+      "judge_model": "gemini-3.5-flash",
+      "generated_answer": "To draw a circle in L\u00d6VE, you use the `love.graphics.circle` function [4]. This function requires a draw mode, the x and y coordinates for the center of the circle, and the radius [4].\n\n```lua\nfunction love.draw()\n    -- Draw a filled circle\n    love.graphics.circle(\"fill\", 400, 300, 50)\n\n    -- Draw an outlined circle\n    love.graphics.circle(\"line\", 400, 300, 50)\nend\n```\n\n### Explanation & Citations\n1. **Function Usage**: The `love.graphics.circle` function is used to render circles [4].\n2. **Draw Modes**: The first argument specifies the mode, which can be either \"fill\" to draw a solid circle or \"line\" to draw only the outline [4].\n3. **Coordinates and Size**: The subsequent arguments define the center position (x, y) and the radius of the circle [4].",
+      "faithfulness": {
+        "score": 1,
+        "max_score": 1,
+        "rationale": "The generated answer is fully faithful to the retrieved chunks. It correctly explains the parameters of `love.graphics.circle` (mode, x, y, radius) and the two draw modes ('fill' and 'line') using information directly supported by chunk [4] and chunk [1]."
+      },
+      "correctness": {
+        "score": 2,
+        "max_score": 2,
+        "rationale": "The generated answer perfectly explains how to use `love.graphics.circle` with both 'fill' and 'line' modes to draw filled and outlined circles, providing accurate code examples and parameter explanations."
+      },
+      "judge_latency_ms": 6488.6
+    },
+    {
+      "id": "Q09",
+      "kind": "coding",
+      "question": "Write Lua code to move a rectangle on screen using arrow keys and delta time dt in love.update and draw it in love.draw.",
+      "answerable": true,
+      "generator_model": "gemini-3.1-flash-lite",
+      "judge_model": "gemini-3.5-flash",
+      "generated_answer": "To move a rectangle using arrow keys, you can update its coordinates in `love.update` using the provided `dt` (delta time) to ensure frame-rate independent movement [3].\n\n```lua\nlocal x, y = 100, 100\nlocal speed = 200\n\nfunction love.update(dt)\n    if love.keyboard.isDown(\"up\") then\n        y = y - speed * dt\n    elseif love.keyboard.isDown(\"down\") then\n        y = y + speed * dt\n    end\n\n    if love.keyboard.isDown(\"left\") then\n        x = x - speed * dt\n    elseif love.keyboard.isDown(\"right\") then\n        x = x + speed * dt\n    end\nend\n\nfunction love.draw()\n    love.graphics.rectangle(\"fill\", x, y, 50, 50)\nend\n```\n\n### Explanation & Citations\n1. **Movement Logic**: The `love.update(dt)` function is used to calculate position changes based on `dt`, which represents the time elapsed since the last frame [3].\n2. **Input Handling**: `love.keyboard.isDown(key)` is used to check if specific arrow keys are currently held down [11][15].\n3. **Rendering**: `love.graphics.rectangle(mode, x, y, width, height)` is used to draw the rectangle at the updated coordinates [18].",
+      "faithfulness": {
+        "score": 1,
+        "max_score": 1,
+        "rationale": "The generated Lua code and explanation are fully supported by the retrieved chunks, which detail the usage of love.update(dt) for frame-rate independent movement, love.keyboard.isDown for input detection, and love.graphics.rectangle for drawing."
+      },
+      "correctness": {
+        "score": 2,
+        "max_score": 2,
+        "rationale": "The generated answer correctly implements the requested Love2D code using all expected APIs (love.update, love.draw, love.keyboard.isDown, and love.graphics.rectangle) with accurate delta time movement logic."
+      },
+      "judge_latency_ms": 8113.0
+    },
+    {
+      "id": "Q11",
+      "kind": "out_of_scope",
+      "question": "How do I write a C# MonoBehaviour script with Rigidbody in Unity?",
+      "answerable": false,
+      "generator_model": "gemini-3.1-flash-lite",
+      "judge_model": "gemini-3.5-flash",
+      "generated_answer": "I don't have enough information in the provided sources to answer that.",
+      "faithfulness": {
+        "score": 1,
+        "max_score": 1,
+        "rationale": "The retrieved reference chunks are about the Love2D framework and contain no information about Unity, C#, or MonoBehaviour. The generated answer correctly states that there is not enough information in the provided sources to answer the question."
+      },
+      "correctness": {
+        "score": 2,
+        "max_score": 2,
+        "rationale": "The generated answer correctly identifies the out-of-scope trap question and emits the exact required refusal string."
+      },
+      "judge_latency_ms": 4049.7
+    },
+    {
+      "id": "Q13",
+      "kind": "out_of_scope",
+      "question": "How do I manage component state using useState and useEffect hooks in React?",
+      "answerable": false,
+      "generator_model": "gemini-3.1-flash-lite",
+      "judge_model": "gemini-3.5-flash",
+      "generated_answer": "I don't have enough information in the provided sources to answer that.",
+      "faithfulness": {
+        "score": 1,
+        "max_score": 1,
+        "rationale": "The retrieved reference chunks contain information about the Love2D game framework, specifically RandomGenerator and Source APIs, and do not mention React, useState, or useEffect. The generated answer correctly states that there is not enough information in the sources to answer the question."
+      },
+      "correctness": {
+        "score": 2,
+        "max_score": 2,
+        "rationale": "The question is an out-of-scope trap about React, and the generated answer correctly emits the exact required refusal string for unanswerable questions."
+      },
+      "judge_latency_ms": 5249.0
+    }
+  ]
+}

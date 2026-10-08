@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791118892.9453459, "query": "what is graphics", "status": "ok", "duration_ms": 0.72}
+{"stage": "retrieve", "ts": 1791118892.947499, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 73.49}
+{"stage": "llm.generate", "ts": 1791118893.037103, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2113.44}
+{"stage": "validate.citations", "ts": 1791118895.1517613, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.77}

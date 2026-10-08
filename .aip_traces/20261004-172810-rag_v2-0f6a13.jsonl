@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791115090.1337705, "query": "Can you talk about HS2", "status": "ok", "duration_ms": 0.7}
+{"stage": "retrieve", "ts": 1791115090.1362026, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 398.33}
+{"stage": "llm.generate", "ts": 1791115090.5684092, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1730.94}
+{"stage": "validate.citations", "ts": 1791115092.2998202, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.34}

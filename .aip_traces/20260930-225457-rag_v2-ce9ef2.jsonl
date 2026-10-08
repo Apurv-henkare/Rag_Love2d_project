@@ -1,0 +1,2 @@
+{"stage": "guard.input", "ts": 1790789097.6029696, "query": "What is love.graphics.circle in Love2D?", "status": "ok", "duration_ms": 0.68}
+{"stage": "retrieve", "ts": 1790789099.173105, "mode": "dense", "status": "error", "error": "AttributeError: 'Love2DRetriever' object has no attribute 'invoke'", "duration_ms": 1.9}

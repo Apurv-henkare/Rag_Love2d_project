@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795699.7294126, "query": "Write Lua code to move a rectangle on screen using arrow keys and delta time dt in love.update and d", "status": "ok", "duration_ms": 0.06}
+{"stage": "retrieve", "ts": 1790795699.7300158, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2468.84}
+{"stage": "llm.generate", "ts": 1790795702.20848, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2463.2}
+{"stage": "validate.citations", "ts": 1790795704.672009, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.01}

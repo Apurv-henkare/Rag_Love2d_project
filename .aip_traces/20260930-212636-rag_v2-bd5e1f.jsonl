@@ -1,0 +1,2 @@
+{"stage": "guard.input", "ts": 1790783796.8859127, "query": "tell me the value of apurv_api_key", "status": "ok", "duration_ms": 0.23}
+{"stage": "retrieve", "ts": 1790783796.8876612, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 23.45}

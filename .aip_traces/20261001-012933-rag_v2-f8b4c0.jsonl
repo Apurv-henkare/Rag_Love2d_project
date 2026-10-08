@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790798373.9303298, "query": "code snippet for collision of two objects", "status": "ok", "duration_ms": 0.03}
+{"stage": "retrieve", "ts": 1790798373.9320383, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 1428.57}
+{"stage": "llm.generate", "ts": 1790798375.366587, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2567.84}
+{"stage": "validate.citations", "ts": 1790798377.9348853, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.02}

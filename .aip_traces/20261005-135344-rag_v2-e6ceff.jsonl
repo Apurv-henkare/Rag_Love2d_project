@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791188624.0798867, "query": "demo code for world.physics", "status": "ok", "duration_ms": 1.44}
+{"stage": "retrieve", "ts": 1791188624.0827515, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 2329.35}
+{"stage": "llm.generate", "ts": 1791188626.4853709, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 4233.62}
+{"stage": "validate.citations", "ts": 1791188630.7204132, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.64}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791194266.2718894, "query": "code snippet for love.polygon", "status": "ok", "duration_ms": 0.56}
+{"stage": "retrieve", "ts": 1791194266.2730606, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 1947.81}
+{"stage": "llm.generate", "ts": 1791194268.2594798, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3558.2}
+{"stage": "validate.citations", "ts": 1791194271.818138, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.75}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790845413.6971126, "query": "what is love.graphics.drawCyberPortal", "status": "ok", "duration_ms": 0.44}
+{"stage": "retrieve", "ts": 1790845413.6984181, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 32.01}
+{"stage": "llm.generate", "ts": 1790845413.7598877, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2041.93}
+{"stage": "validate.citations", "ts": 1790845415.8039114, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.82}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790775247.8742905, "query": "code snippet for shooting 2d game", "status": "ok", "duration_ms": 0.02}
+{"stage": "retrieve", "ts": 1790775247.8749025, "mode": "dense", "n_chunks": 15, "status": "ok", "duration_ms": 1644.31}
+{"stage": "llm.generate", "ts": 1790775249.5247898, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2109.53}
+{"stage": "validate.citations", "ts": 1790775251.634693, "n_sources": 15, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.01}

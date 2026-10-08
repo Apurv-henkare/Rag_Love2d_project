@@ -1,0 +1,2 @@
+{"stage": "guard.input", "ts": 1790791906.0061367, "query": "What does love.update(dt) do and why is dt important?", "status": "ok", "duration_ms": 1.04}
+{"stage": "retrieve", "ts": 1790791906.0090888, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 55.63}

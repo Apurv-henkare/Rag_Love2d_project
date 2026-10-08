@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790844508.6325562, "query": "code snippet for the followng game tic tac toe game", "status": "ok", "duration_ms": 0.44}
+{"stage": "retrieve", "ts": 1790844508.6336875, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2184.51}
+{"stage": "llm.generate", "ts": 1790844510.9088266, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 4350.39}
+{"stage": "validate.citations", "ts": 1790844515.260586, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.83}

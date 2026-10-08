@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791115500.1624568, "query": "code for shooting a bullte while pressing keyboard f", "status": "ok", "duration_ms": 0.88}
+{"stage": "retrieve", "ts": 1791115500.1648495, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 2700.98}
+{"stage": "llm.generate", "ts": 1791115502.9168873, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3441.08}
+{"stage": "validate.citations", "ts": 1791115506.3590636, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.81}

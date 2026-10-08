@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795719.5639052, "query": "How do I call love.graphics.draw3DRaytracedMesh() to enable hardware raytracing in Love2D?", "status": "ok", "duration_ms": 0.11}
+{"stage": "retrieve", "ts": 1790795719.5647755, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 70.64}
+{"stage": "llm.generate", "ts": 1790795719.6380913, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1362.11}
+{"stage": "validate.citations", "ts": 1790795721.0006692, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.01}

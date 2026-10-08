@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791138118.7234704, "query": "can you talk about 0.10.0", "status": "ok", "duration_ms": 0.57}
+{"stage": "retrieve", "ts": 1791138118.725419, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 146.4}
+{"stage": "llm.generate", "ts": 1791138118.8952062, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1497.03}
+{"stage": "validate.citations", "ts": 1791138120.3934875, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.89}

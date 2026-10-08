@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791115904.3462672, "query": "telll me about Joystick:getVibration with demo code", "status": "ok", "duration_ms": 0.62}
+{"stage": "retrieve", "ts": 1791115904.3484414, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 94.87}
+{"stage": "llm.generate", "ts": 1791115904.4700723, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3292.35}
+{"stage": "validate.citations", "ts": 1791115907.7628393, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.42}

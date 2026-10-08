@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790852275.2449343, "query": "code snippet for fallpy bird", "status": "ok", "duration_ms": 0.83}
+{"stage": "retrieve", "ts": 1790852275.2472413, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 1557.57}
+{"stage": "llm.generate", "ts": 1790852276.8405695, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2642.49}
+{"stage": "validate.citations", "ts": 1790852279.4835427, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.5}

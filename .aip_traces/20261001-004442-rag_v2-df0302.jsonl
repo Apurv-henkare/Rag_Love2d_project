@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795682.766055, "query": "How do I draw a filled or outlined circle on the screen using love.graphics.circle?", "status": "ok", "duration_ms": 0.04}
+{"stage": "retrieve", "ts": 1790795682.766514, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 48.37}
+{"stage": "llm.generate", "ts": 1790795682.8174918, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2121.86}
+{"stage": "validate.citations", "ts": 1790795684.93968, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.01}

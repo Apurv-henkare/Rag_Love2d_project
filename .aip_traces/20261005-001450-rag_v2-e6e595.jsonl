@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791139490.070577, "query": "code snippet for moving a shooting game", "status": "ok", "duration_ms": 0.44}
+{"stage": "retrieve", "ts": 1791139490.0717459, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 3567.15}
+{"stage": "llm.generate", "ts": 1791139493.7379935, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 4245.01}
+{"stage": "validate.citations", "ts": 1791139497.9840727, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 2.32}

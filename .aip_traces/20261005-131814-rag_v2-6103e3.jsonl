@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791186494.1915946, "query": "code snippet for collision detcetion", "status": "ok", "duration_ms": 0.67}
+{"stage": "retrieve", "ts": 1791186494.1935625, "mode": "hybrid", "n_chunks": 16, "status": "ok", "duration_ms": 5625.34}
+{"stage": "llm.generate", "ts": 1791186499.8922024, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 5627.5}
+{"stage": "validate.citations", "ts": 1791186505.5208912, "n_sources": 16, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.08}

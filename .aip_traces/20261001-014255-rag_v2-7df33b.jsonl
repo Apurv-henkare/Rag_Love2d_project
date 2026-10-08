@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790799175.137529, "query": "what is blob", "status": "ok", "duration_ms": 0.03}
+{"stage": "retrieve", "ts": 1790799175.1386218, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 27.98}
+{"stage": "llm.generate", "ts": 1790799175.4983752, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2303.69}
+{"stage": "validate.citations", "ts": 1790799177.8031588, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.05}

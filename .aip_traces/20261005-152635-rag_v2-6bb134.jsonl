@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791194195.0444043, "query": "code snippet for love.graphcis.rectangle", "status": "ok", "duration_ms": 0.26}
+{"stage": "retrieve", "ts": 1791194195.0453434, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 1929.39}
+{"stage": "llm.generate", "ts": 1791194197.008932, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2571.65}
+{"stage": "validate.citations", "ts": 1791194199.5811546, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.38}

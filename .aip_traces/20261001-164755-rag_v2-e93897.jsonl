@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790853475.0835526, "query": "can you make a simple character moving rectangle top left bottom right?", "status": "ok", "duration_ms": 0.54}
+{"stage": "retrieve", "ts": 1790853475.0848417, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 1932.51}
+{"stage": "llm.generate", "ts": 1790853477.0518622, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2610.68}
+{"stage": "validate.citations", "ts": 1790853479.6629717, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.47}

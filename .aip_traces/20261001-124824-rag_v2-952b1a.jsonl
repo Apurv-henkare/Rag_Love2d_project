@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790839104.54055, "query": "can you show shooting code", "status": "ok", "duration_ms": 0.03}
+{"stage": "retrieve", "ts": 1790839104.541719, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 30.5}
+{"stage": "llm.generate", "ts": 1790839104.5803502, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3586.53}
+{"stage": "validate.citations", "ts": 1790839108.1682076, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.08}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790850335.6640651, "query": "code snippet for moving player from right to left with spppe 45", "status": "ok", "duration_ms": 0.54}
+{"stage": "retrieve", "ts": 1790850335.6655724, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 1568.72}
+{"stage": "llm.generate", "ts": 1790850337.2693968, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3235.45}
+{"stage": "validate.citations", "ts": 1790850340.5052638, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.47}

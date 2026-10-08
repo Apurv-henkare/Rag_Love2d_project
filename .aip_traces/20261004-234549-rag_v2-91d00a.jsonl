@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791137749.0430946, "query": "tell me about love.graphics.rectangle with demo code", "status": "ok", "duration_ms": 0.47}
+{"stage": "retrieve", "ts": 1791137749.0453887, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 167.25}
+{"stage": "llm.generate", "ts": 1791137749.2289565, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3438.36}
+{"stage": "validate.citations", "ts": 1791137752.6686797, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.05}

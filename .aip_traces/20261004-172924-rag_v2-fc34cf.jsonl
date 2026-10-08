@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791115164.9061208, "query": "code for flappy bird", "status": "ok", "duration_ms": 0.48}
+{"stage": "retrieve", "ts": 1791115164.9073706, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 2110.25}
+{"stage": "llm.generate", "ts": 1791115167.0505378, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3468.26}
+{"stage": "validate.citations", "ts": 1791115170.5192707, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.41}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791138183.6394155, "query": "what is anim8?", "status": "ok", "duration_ms": 0.61}
+{"stage": "retrieve", "ts": 1791138183.641655, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 165.16}
+{"stage": "llm.generate", "ts": 1791138183.8554819, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2270.38}
+{"stage": "validate.citations", "ts": 1791138186.1270013, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.89}

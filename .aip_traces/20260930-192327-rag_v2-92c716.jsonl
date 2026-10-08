@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790776407.663231, "query": "can you show how to make pong game", "status": "ok", "duration_ms": 0.05}
+{"stage": "retrieve", "ts": 1790776407.6649542, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2270.89}
+{"stage": "llm.generate", "ts": 1790776409.950154, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1639.5}
+{"stage": "validate.citations", "ts": 1790776411.5910108, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.05}

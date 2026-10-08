@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791194341.1060193, "query": "code snippet for love.math.bezier", "status": "ok", "duration_ms": 0.62}
+{"stage": "retrieve", "ts": 1791194341.1072917, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 1880.66}
+{"stage": "llm.generate", "ts": 1791194343.027117, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3526.78}
+{"stage": "validate.citations", "ts": 1791194346.5544183, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.87}

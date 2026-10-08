@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790799242.1982856, "query": "code snippet for rotation of square", "status": "ok", "duration_ms": 0.03}
+{"stage": "retrieve", "ts": 1790799242.1996665, "mode": "dense", "n_chunks": 18, "status": "ok", "duration_ms": 3017.43}
+{"stage": "llm.generate", "ts": 1790799245.259167, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3424.08}
+{"stage": "validate.citations", "ts": 1790799248.6847782, "n_sources": 18, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.09}

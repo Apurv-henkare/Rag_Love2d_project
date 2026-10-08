@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795710.89607, "query": "How do I write a C# MonoBehaviour script with Rigidbody in Unity?", "status": "ok", "duration_ms": 0.11}
+{"stage": "retrieve", "ts": 1790795710.8974605, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 1515.03}
+{"stage": "llm.generate", "ts": 1790795712.4178007, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1292.74}
+{"stage": "validate.citations", "ts": 1790795713.710871, "n_sources": 20, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.01}

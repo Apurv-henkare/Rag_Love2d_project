@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795704.8512053, "query": "Write Lua code to load an audio sound file in love.load and play it in Love2D.", "status": "ok", "duration_ms": 0.11}
+{"stage": "retrieve", "ts": 1790795704.8525898, "mode": "dense", "n_chunks": 19, "status": "ok", "duration_ms": 1823.94}
+{"stage": "llm.generate", "ts": 1790795706.681539, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3114.86}
+{"stage": "validate.citations", "ts": 1790795709.7967103, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.01}

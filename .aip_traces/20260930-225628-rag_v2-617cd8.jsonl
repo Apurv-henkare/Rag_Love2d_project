@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790789188.6965022, "query": "How does love.update(dt) work and why is dt used?", "status": "ok", "duration_ms": 1.1}
+{"stage": "retrieve", "ts": 1790789188.706253, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 57.3}
+{"stage": "llm.generate", "ts": 1790789188.788998, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2873.31}
+{"stage": "validate.citations", "ts": 1790789191.6636684, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.04}

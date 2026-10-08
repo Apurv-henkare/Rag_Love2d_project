@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791138215.3546958, "query": "what is anim8 and demo code?", "status": "ok", "duration_ms": 1.0}
+{"stage": "retrieve", "ts": 1791138215.3571253, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 149.89}
+{"stage": "llm.generate", "ts": 1791138215.5335212, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3472.44}
+{"stage": "validate.citations", "ts": 1791138219.0074897, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.75}

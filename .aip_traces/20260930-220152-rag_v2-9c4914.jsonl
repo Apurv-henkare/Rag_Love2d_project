@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790785912.8330765, "query": "Build a complete Love2D RPG game with player movement, Box2D collisions, camera scrolling, particle ", "status": "ok", "duration_ms": 0.61}
+{"stage": "retrieve", "ts": 1790785912.83531, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2105.15}
+{"stage": "llm.generate", "ts": 1790785914.9675431, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3248.36}
+{"stage": "validate.citations", "ts": 1790785918.2171261, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.67}

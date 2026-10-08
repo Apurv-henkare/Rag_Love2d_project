@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791183827.5590575, "query": "code snippet for love.math.newBezierCurve", "status": "ok", "duration_ms": 0.35}
+{"stage": "retrieve", "ts": 1791183827.5598588, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 2015.54}
+{"stage": "llm.generate", "ts": 1791183829.6160276, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2484.71}
+{"stage": "validate.citations", "ts": 1791183832.101152, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.65}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791182956.9228818, "query": "code snippet for pong game and ball moving with random moving adn checking AABB collisions adn two p", "status": "ok", "duration_ms": 0.55}
+{"stage": "retrieve", "ts": 1791182956.924036, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 1704.39}
+{"stage": "llm.generate", "ts": 1791182958.6627667, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 4440.35}
+{"stage": "validate.citations", "ts": 1791182963.1034334, "n_sources": 20, "initial_valid": false, "reason": "Code calls unsupported Love2D API(s) ['love.graphics.rectangle', 'love.graphics.getHeight'] not present in the retrieved documentation chunks. You may only use engine functions from the provided sources.", "repaired_valid": true, "status": "ok", "duration_ms": 4676.12}

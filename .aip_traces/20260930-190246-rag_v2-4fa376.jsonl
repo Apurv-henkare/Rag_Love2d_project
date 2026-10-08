@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790775166.669684, "query": "what is love.circle", "status": "ok", "duration_ms": 0.02}
+{"stage": "retrieve", "ts": 1790775166.6708014, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 41.15}
+{"stage": "llm.generate", "ts": 1790775166.716955, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2048.26}
+{"stage": "validate.citations", "ts": 1790775168.7657623, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.02}

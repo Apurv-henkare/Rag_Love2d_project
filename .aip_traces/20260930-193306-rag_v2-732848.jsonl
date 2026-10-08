@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790776986.5259519, "query": "what is the code logic for shootng game?", "status": "ok", "duration_ms": 0.03}
+{"stage": "retrieve", "ts": 1790776986.5272732, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2102.56}
+{"stage": "llm.generate", "ts": 1790776988.638219, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3152.4}
+{"stage": "validate.citations", "ts": 1790776991.7917347, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.06}

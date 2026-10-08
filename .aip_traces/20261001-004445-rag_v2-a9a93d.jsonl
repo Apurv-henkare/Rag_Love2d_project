@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795685.736692, "query": "What arguments does love.graphics.rectangle take to draw a rectangle?", "status": "ok", "duration_ms": 0.1}
+{"stage": "retrieve", "ts": 1790795685.7381876, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 47.65}
+{"stage": "llm.generate", "ts": 1790795685.7884212, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2255.39}
+{"stage": "validate.citations", "ts": 1790795688.0448308, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.03}

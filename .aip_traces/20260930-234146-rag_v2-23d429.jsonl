@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790791906.2140725, "query": "How does love.graphics.setColor work in Love2D 11.0+?", "status": "ok", "duration_ms": 0.33}
+{"stage": "retrieve", "ts": 1790791906.21496, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 21.75}
+{"stage": "llm.generate", "ts": 1790791906.2450671, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2222.23}
+{"stage": "validate.citations", "ts": 1790791908.4683115, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.26}

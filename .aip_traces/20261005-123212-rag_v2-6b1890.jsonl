@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791183732.7179909, "query": "code snippet for love.grapghics.bezier", "status": "ok", "duration_ms": 0.54}
+{"stage": "retrieve", "ts": 1791183732.71916, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 2415.89}
+{"stage": "llm.generate", "ts": 1791183735.1701987, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2938.66}
+{"stage": "validate.citations", "ts": 1791183738.1092968, "n_sources": 20, "initial_valid": false, "reason": "Code calls unsupported Love2D API(s) ['love.timer.getTime'] not present in the retrieved documentation chunks. You may only use engine functions from the provided sources.", "repaired_valid": true, "status": "ok", "duration_ms": 1835.98}

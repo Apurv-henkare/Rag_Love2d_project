@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790796276.4019277, "query": "How do I change the game window title using love.window.setTitle?", "status": "ok", "duration_ms": 0.04}
+{"stage": "retrieve", "ts": 1790796276.4024498, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 13.66}
+{"stage": "llm.generate", "ts": 1790796276.4207764, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2035.82}
+{"stage": "validate.citations", "ts": 1790796278.4570627, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.01}

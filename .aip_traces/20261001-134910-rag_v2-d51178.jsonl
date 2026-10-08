@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790842750.8343046, "query": "code snippet of classes in love2d", "status": "ok", "duration_ms": 0.71}
+{"stage": "retrieve", "ts": 1790842751.1626832, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 1817.97}
+{"stage": "llm.generate", "ts": 1790842753.0468855, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2695.0}
+{"stage": "validate.citations", "ts": 1790842755.7433462, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.92}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790789219.7928793, "query": "What are the three main lifecycle callbacks in Love2D?", "status": "ok", "duration_ms": 1.05}
+{"stage": "retrieve", "ts": 1790789219.8035958, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 50.98}
+{"stage": "llm.generate", "ts": 1790789219.879766, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2294.44}
+{"stage": "validate.citations", "ts": 1790789222.1753001, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.93}

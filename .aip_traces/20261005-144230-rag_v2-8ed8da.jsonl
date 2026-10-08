@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791191550.767577, "query": "can you tell me about in brief about love.graphics.ellipse", "status": "ok", "duration_ms": 0.66}
+{"stage": "retrieve", "ts": 1791191550.7710257, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 245.54}
+{"stage": "llm.generate", "ts": 1791191551.0358133, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2409.42}
+{"stage": "validate.citations", "ts": 1791191553.4466145, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.82}

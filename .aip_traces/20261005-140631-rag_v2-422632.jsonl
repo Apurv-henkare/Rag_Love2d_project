@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791189391.8884208, "query": "implement jumping mechansim in love2d", "status": "ok", "duration_ms": 0.82}
+{"stage": "retrieve", "ts": 1791189391.8923743, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 524.44}
+{"stage": "llm.generate", "ts": 1791189392.443486, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3828.14}
+{"stage": "validate.citations", "ts": 1791189396.2728958, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.61}

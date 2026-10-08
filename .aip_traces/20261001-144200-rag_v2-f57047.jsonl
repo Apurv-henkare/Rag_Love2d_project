@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790845920.5436175, "query": "what does love.load does", "status": "ok", "duration_ms": 0.94}
+{"stage": "retrieve", "ts": 1790845920.5459113, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 43.61}
+{"stage": "llm.generate", "ts": 1790845920.640497, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2235.1}
+{"stage": "validate.citations", "ts": 1790845922.8769653, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.91}

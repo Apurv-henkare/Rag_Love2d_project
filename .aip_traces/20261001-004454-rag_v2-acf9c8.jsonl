@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795694.8157427, "query": "How do I create a Box2D physics world using love.physics.newWorld?", "status": "ok", "duration_ms": 0.11}
+{"stage": "retrieve", "ts": 1790795694.817393, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 49.09}
+{"stage": "llm.generate", "ts": 1790795694.8696554, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2509.51}
+{"stage": "validate.citations", "ts": 1790795697.3794873, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.01}

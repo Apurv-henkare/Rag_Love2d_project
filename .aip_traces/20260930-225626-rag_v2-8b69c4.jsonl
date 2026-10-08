@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790789186.4008164, "query": "What is love.graphics.circle in Love2D?", "status": "ok", "duration_ms": 0.64}
+{"stage": "retrieve", "ts": 1790789186.4062793, "mode": "gold", "n_chunks": 1, "status": "ok", "duration_ms": 0.0}
+{"stage": "llm.generate", "ts": 1790789186.412304, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1972.46}
+{"stage": "validate.citations", "ts": 1790789188.385767, "n_sources": 1, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.86}

@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791115684.104353, "query": "code snippet for Joystick:getSensorData( sensorType )", "status": "ok", "duration_ms": 1.58}
+{"stage": "retrieve", "ts": 1791115684.1077323, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 20824.27}
+{"stage": "llm.generate", "ts": 1791115704.9943733, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3098.48}
+{"stage": "validate.citations", "ts": 1791115708.0943563, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.92}

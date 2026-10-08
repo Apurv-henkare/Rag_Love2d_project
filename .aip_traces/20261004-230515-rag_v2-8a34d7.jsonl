@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791135315.6593304, "query": "code snippet for drawing circle", "status": "ok", "duration_ms": 0.65}
+{"stage": "retrieve", "ts": 1791135315.6618526, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 2320.43}
+{"stage": "llm.generate", "ts": 1791135318.019908, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2124.82}
+{"stage": "validate.citations", "ts": 1791135320.1450324, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.35}

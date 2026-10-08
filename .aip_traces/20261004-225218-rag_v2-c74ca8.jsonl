@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791134538.961875, "query": "what is BezierCurve:removeControlPoin", "status": "ok", "duration_ms": 0.53}
+{"stage": "retrieve", "ts": 1791134538.9631727, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 38.3}
+{"stage": "llm.generate", "ts": 1791134539.0163176, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2093.21}
+{"stage": "validate.citations", "ts": 1791134541.1098857, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.39}

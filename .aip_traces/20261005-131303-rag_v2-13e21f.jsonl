@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791186183.9163506, "query": "code snippet for jumping", "status": "ok", "duration_ms": 0.95}
+{"stage": "retrieve", "ts": 1791186183.918994, "mode": "hybrid", "n_chunks": 19, "status": "ok", "duration_ms": 4507.28}
+{"stage": "llm.generate", "ts": 1791186188.8627892, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 4112.88}
+{"stage": "validate.citations", "ts": 1791186192.9772103, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 5.53}

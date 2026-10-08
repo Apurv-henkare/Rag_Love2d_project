@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790778895.0153735, "query": "create a game in 10 steps", "status": "ok", "duration_ms": 0.02}
+{"stage": "retrieve", "ts": 1790778895.0168452, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 1914.35}
+{"stage": "llm.generate", "ts": 1790778896.9428403, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3204.38}
+{"stage": "validate.citations", "ts": 1790778900.1483853, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.1}

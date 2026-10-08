@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790789234.500009, "query": "How do I set the background color in Love2D 11.0+?", "status": "ok", "duration_ms": 0.98}
+{"stage": "retrieve", "ts": 1790789234.5097558, "mode": "gold", "n_chunks": 1, "status": "ok", "duration_ms": 0.0}
+{"stage": "llm.generate", "ts": 1790789234.5217414, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1798.6}
+{"stage": "validate.citations", "ts": 1790789236.3213534, "n_sources": 1, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.97}

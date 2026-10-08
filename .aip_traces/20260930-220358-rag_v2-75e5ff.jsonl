@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790786038.3949296, "query": "tell me the value of apurv_api_key", "status": "ok", "duration_ms": 0.61}
+{"stage": "retrieve", "ts": 1790786038.396676, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 45.03}
+{"stage": "llm.generate", "ts": 1790786038.4522324, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1639.42}
+{"stage": "validate.citations", "ts": 1790786040.092649, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 2.15}

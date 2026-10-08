@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790795718.1436048, "query": "What is the best recipe and oven temperature for baking sourdough pasta at home?", "status": "ok", "duration_ms": 0.03}
+{"stage": "retrieve", "ts": 1790795718.1439738, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 50.79}
+{"stage": "llm.generate", "ts": 1790795718.1974597, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1203.62}
+{"stage": "validate.citations", "ts": 1790795719.4015348, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.01}

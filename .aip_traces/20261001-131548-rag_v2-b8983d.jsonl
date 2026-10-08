@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790840748.031078, "query": "wirte code snippt for parallax effect", "status": "ok", "duration_ms": 0.76}
+{"stage": "retrieve", "ts": 1790840748.0332248, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 38.16}
+{"stage": "llm.generate", "ts": 1790840748.0807765, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3007.99}
+{"stage": "validate.citations", "ts": 1790840751.0903177, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.78}

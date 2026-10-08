@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791137892.1897805, "query": "which operator is used to stop looping in game and start again", "status": "ok", "duration_ms": 1.0}
+{"stage": "retrieve", "ts": 1791137892.19346, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 299.45}
+{"stage": "llm.generate", "ts": 1791137892.5086262, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2502.83}
+{"stage": "validate.citations", "ts": 1791137895.0127902, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.86}

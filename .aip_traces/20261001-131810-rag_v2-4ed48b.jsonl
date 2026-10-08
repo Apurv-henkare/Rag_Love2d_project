@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790840890.2481472, "query": "code snippet for player gravity", "status": "ok", "duration_ms": 0.64}
+{"stage": "retrieve", "ts": 1790840890.250288, "mode": "dense", "n_chunks": 19, "status": "ok", "duration_ms": 2041.3}
+{"stage": "llm.generate", "ts": 1790840892.3243482, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3159.22}
+{"stage": "validate.citations", "ts": 1790840895.4847157, "n_sources": 19, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.72}

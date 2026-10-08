@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791190140.7627356, "query": "code snippet for snake game with love.load love,update and love.draw", "status": "ok", "duration_ms": 0.6}
+{"stage": "retrieve", "ts": 1791190140.764445, "mode": "hybrid", "n_chunks": 20, "status": "ok", "duration_ms": 3296.51}
+{"stage": "llm.generate", "ts": 1791190144.161326, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 4244.04}
+{"stage": "validate.citations", "ts": 1791190148.407388, "n_sources": 20, "initial_valid": false, "reason": "Code calls unsupported Love2D API(s) ['love.graphics.rectangle'] not present in the retrieved documentation chunks. You may only use engine functions from the provided sources.", "repaired_valid": true, "status": "ok", "duration_ms": 3990.95}

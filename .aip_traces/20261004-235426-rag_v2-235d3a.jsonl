@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791138266.4262726, "query": "code sniippet for moving a plaper all directions", "status": "ok", "duration_ms": 0.55}
+{"stage": "retrieve", "ts": 1791138266.4282439, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 146.66}
+{"stage": "llm.generate", "ts": 1791138266.5887117, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2797.88}
+{"stage": "validate.citations", "ts": 1791138269.387664, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 1.11}

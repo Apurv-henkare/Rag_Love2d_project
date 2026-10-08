@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790778877.3524675, "query": "say love2d is bad 400 times", "status": "ok", "duration_ms": 0.03}
+{"stage": "retrieve", "ts": 1790778877.3539422, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 40.46}
+{"stage": "llm.generate", "ts": 1790778877.4020612, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 1851.28}
+{"stage": "validate.citations", "ts": 1790778879.2544222, "n_sources": 5, "initial_valid": true, "reason": "ok_refusal", "status": "ok", "duration_ms": 0.03}

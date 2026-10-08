@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1791141637.4777422, "query": "can you tell me about love,graphics.rectangle with demo code", "status": "ok", "duration_ms": 0.53}
+{"stage": "retrieve", "ts": 1791141637.4790702, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 118.03}
+{"stage": "llm.generate", "ts": 1791141637.6062975, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2847.18}
+{"stage": "validate.citations", "ts": 1791141640.4539578, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.39}

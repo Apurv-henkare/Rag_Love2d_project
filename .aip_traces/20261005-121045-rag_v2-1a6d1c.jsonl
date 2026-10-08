@@ -1,0 +1,2 @@
+{"stage": "guard.input", "ts": 1791182445.639031, "query": "tell me about love.grapghics.circle", "status": "ok", "duration_ms": 0.71}
+{"stage": "retrieve", "ts": 1791182445.6407394, "mode": "hybrid", "n_chunks": 5, "status": "ok", "duration_ms": 181.49}

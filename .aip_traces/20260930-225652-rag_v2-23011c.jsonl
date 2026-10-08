@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790789212.4358342, "query": "How do I check if the spacebar key is currently held down?", "status": "ok", "duration_ms": 0.63}
+{"stage": "retrieve", "ts": 1790789212.4395113, "mode": "dense", "n_chunks": 5, "status": "ok", "duration_ms": 16.07}
+{"stage": "llm.generate", "ts": 1790789212.4646935, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 2382.21}
+{"stage": "validate.citations", "ts": 1790789214.8479197, "n_sources": 5, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.97}

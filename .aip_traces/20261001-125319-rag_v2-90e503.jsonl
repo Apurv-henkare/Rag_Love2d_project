@@ -1,0 +1,4 @@
+{"stage": "guard.input", "ts": 1790839399.7147727, "query": "code snippet of AABB collision", "status": "ok", "duration_ms": 0.82}
+{"stage": "retrieve", "ts": 1790839399.717221, "mode": "dense", "n_chunks": 20, "status": "ok", "duration_ms": 2334.88}
+{"stage": "llm.generate", "ts": 1790839402.092605, "model": "gemini-3.1-flash-lite", "version": "v2", "status": "ok", "duration_ms": 3242.17}
+{"stage": "validate.citations", "ts": 1790839405.3365526, "n_sources": 20, "initial_valid": true, "reason": "ok", "status": "ok", "duration_ms": 0.92}
